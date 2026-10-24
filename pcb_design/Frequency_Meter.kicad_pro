@@ -720,7 +720,7 @@
         "uuid": "671a7fb9-45cc-4427-a04d-af06a4b40d7d"
       }
     ],
-    "used_designators": "R15",
+    "used_designators": "IC4,R15,#PWR17",
     "variants": []
   },
   "sheets": [
