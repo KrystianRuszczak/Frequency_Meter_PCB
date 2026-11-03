@@ -7098,7 +7098,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 207.01) (xy 236.22 213.36)
+			(xy 214.63 187.96) (xy 214.63 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7198,7 +7198,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 228.6) (xy 299.72 228.6)
+			(xy 294.64 251.46) (xy 299.72 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7408,7 +7408,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 228.6) (xy 313.69 228.6)
+			(xy 307.34 251.46) (xy 313.69 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7808,6 +7808,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 219.71) (xy 186.69 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc57bd3-31d4-40f8-b7b8-870858969060")
+	)
+	(wire
+		(pts
 			(xy 299.72 102.87) (xy 299.72 101.6)
 		)
 		(stroke
@@ -7908,7 +7918,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 233.68) (xy 299.72 233.68)
+			(xy 294.64 256.54) (xy 299.72 256.54)
 		)
 		(stroke
 			(width 0)
@@ -8188,7 +8198,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 233.68) (xy 313.69 233.68)
+			(xy 307.34 256.54) (xy 313.69 256.54)
 		)
 		(stroke
 			(width 0)
@@ -8225,6 +8235,26 @@
 			(type default)
 		)
 		(uuid "867d33c8-1e89-4b8f-b0e8-3c5a01ddd75c")
+	)
+	(wire
+		(pts
+			(xy 257.81 187.96) (xy 257.81 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86822233-d01b-4a6f-9998-7a4bdaed32b5")
+	)
+	(wire
+		(pts
+			(xy 201.93 219.71) (xy 201.93 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891c56bc-2e30-41dd-98fe-2aaeda44c913")
 	)
 	(wire
 		(pts
@@ -8328,7 +8358,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 207.01) (xy 264.16 213.36)
+			(xy 242.57 187.96) (xy 242.57 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8365,6 +8395,16 @@
 			(type default)
 		)
 		(uuid "99239cdf-34d0-4679-aa01-1baccd5301bf")
+	)
+	(wire
+		(pts
+			(xy 271.78 187.96) (xy 271.78 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d29b6b2-faa8-409c-ad40-4d41d7d69739")
 	)
 	(wire
 		(pts
@@ -8478,7 +8518,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 207.01) (xy 250.19 213.36)
+			(xy 228.6 187.96) (xy 228.6 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8688,7 +8728,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 207.01) (xy 222.25 213.36)
+			(xy 200.66 187.96) (xy 200.66 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8715,6 +8755,16 @@
 			(type default)
 		)
 		(uuid "c9cc4c52-8415-4c99-8ac2-7870f75df2bc")
+	)
+	(wire
+		(pts
+			(xy 287.02 187.96) (xy 287.02 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca781d14-df8e-401b-8ef3-e014a01fbe10")
 	)
 	(wire
 		(pts
@@ -9118,7 +9168,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 207.01) (xy 205.74 213.36)
+			(xy 184.15 187.96) (xy 184.15 194.31)
 		)
 		(stroke
 			(width 0)
@@ -9145,6 +9195,16 @@
 			(type default)
 		)
 		(uuid "faef7a1c-37bd-4238-b3f8-f7a977c0c48b")
+	)
+	(wire
+		(pts
+			(xy 302.26 187.96) (xy 302.26 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf8a064-74a4-47ea-b007-71d1220d0692")
 	)
 	(wire
 		(pts
@@ -9227,7 +9287,7 @@
 		(uuid "1547381d-fafb-474f-91db-7536f5f5e0ac")
 	)
 	(label "POWER_3V3"
-		(at 250.19 213.36 270)
+		(at 228.6 194.31 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9386,6 +9446,16 @@
 		)
 		(uuid "4ed92334-f9b9-4982-a5aa-e64dccc29874")
 	)
+	(label "POWER_5V"
+		(at 271.78 194.31 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "502ab33c-9c7a-4cc9-aecf-e417806c44df")
+	)
 	(label "CC2"
 		(at 405.13 231.14 180)
 		(effects
@@ -9416,8 +9486,18 @@
 		)
 		(uuid "5e89f284-4245-48ba-b649-3e2a263a6e98")
 	)
+	(label "CLK_DIV2"
+		(at 201.93 226.06 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ea7c4ee-ee15-4061-a8c3-e50e388ed367")
+	)
 	(label "PA13"
-		(at 205.74 213.36 270)
+		(at 184.15 194.31 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9517,7 +9597,7 @@
 		(uuid "80b63449-ed80-46b5-93e8-5da49594bdbf")
 	)
 	(label "PA14"
-		(at 222.25 213.36 270)
+		(at 200.66 194.31 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9537,7 +9617,7 @@
 		(uuid "871f45e9-1d45-40ad-bd59-4bf2cf7f3f66")
 	)
 	(label "PA8_SDA"
-		(at 294.64 228.6 180)
+		(at 294.64 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9587,7 +9667,7 @@
 		(uuid "979b5201-375a-40bd-bcc5-16cde059f7aa")
 	)
 	(label "PA9_SCL"
-		(at 294.64 233.68 180)
+		(at 294.64 256.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9625,6 +9705,26 @@
 			(justify left bottom)
 		)
 		(uuid "a192d0fa-32fc-4a95-a6da-796fffdead2d")
+	)
+	(label "VREF_1V6"
+		(at 302.26 194.31 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a40e422d-5d27-4b94-8a02-5e8b51dc4ba4")
+	)
+	(label "RF_3V3"
+		(at 287.02 194.31 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5847607-5469-4f29-86dc-79e41b0e3ffc")
 	)
 	(label "VREF_1V6"
 		(at 92.71 276.86 180)
@@ -9737,7 +9837,7 @@
 		(uuid "c0cb52b5-f1b5-43d1-a4d7-7c018765e507")
 	)
 	(label "PG10-NRST"
-		(at 236.22 213.36 270)
+		(at 214.63 194.31 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9907,7 +10007,7 @@
 		(uuid "f4c3795e-f832-4cf6-9f65-075c75b4133c")
 	)
 	(label "POWER_3V3"
-		(at 313.69 228.6 0)
+		(at 313.69 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9936,6 +10036,16 @@
 		)
 		(uuid "fb230188-d8e8-4c62-aa3c-398fb0e6b276")
 	)
+	(label "CLK_100M"
+		(at 186.69 226.06 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc2ece6e-19e1-468d-9d0e-ff34d0252f82")
+	)
 	(label "USB_P"
 		(at 424.18 72.39 0)
 		(effects
@@ -9947,7 +10057,7 @@
 		(uuid "fca53fbc-36aa-4a67-bf1b-e2990af9f8df")
 	)
 	(label "POWER_3V3"
-		(at 313.69 233.68 0)
+		(at 313.69 256.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11155,7 +11265,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 250.19 207.01 0)
+		(at 228.6 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11166,7 +11276,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fae9f5f-10a1-46e5-819f-aee3d92e6f67")
 		(property "Reference" "TP4"
-			(at 252.73 202.4379 0)
+			(at 231.14 183.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11177,7 +11287,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 252.73 204.9779 0)
+			(at 231.14 185.9279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11188,7 +11298,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 207.01 0)
+			(at 233.68 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11199,7 +11309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 207.01 0)
+			(at 233.68 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11210,7 +11320,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 250.19 207.01 0)
+			(at 228.6 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11392,7 +11502,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 222.25 207.01 0)
+		(at 200.66 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11403,7 +11513,7 @@
 		(fields_autoplaced yes)
 		(uuid "2598ad11-f952-435c-8170-218078ac5c37")
 		(property "Reference" "TP2"
-			(at 224.79 202.4379 0)
+			(at 203.2 183.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11414,7 +11524,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 224.79 204.9779 0)
+			(at 203.2 185.9279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11425,7 +11535,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 227.33 207.01 0)
+			(at 205.74 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11436,7 +11546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 207.01 0)
+			(at 205.74 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11447,7 +11557,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 222.25 207.01 0)
+			(at 200.66 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12164,6 +12274,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 302.26 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30c0eb80-f80f-4eb6-8179-df70ed2a2470")
+		(property "Reference" "TP9"
+			(at 304.8 183.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 304.8 185.9279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 307.34 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 302.26 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97aa5d21-1aaf-4cee-b73b-d21cd918a180")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 278.13 71.12 90)
 		(unit 1)
@@ -12238,6 +12427,85 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.81 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "345c0859-a8d0-472e-9c8a-61c1626a5d92")
+		(property "Reference" "TP6"
+			(at 260.35 183.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.35 185.9279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 262.89 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.81 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "135cfea0-2729-41c9-9f91-3468608e1722")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -12721,7 +12989,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 303.53 228.6 270)
+		(at 303.53 251.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12732,7 +13000,7 @@
 		(fields_autoplaced yes)
 		(uuid "40f08df9-b88a-4f6b-9c86-b8eafe77eb59")
 		(property "Reference" "DNP_R1"
-			(at 303.53 222.25 90)
+			(at 303.53 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12742,7 +13010,7 @@
 			)
 		)
 		(property "Value" "4,7k"
-			(at 303.53 224.79 90)
+			(at 303.53 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12752,7 +13020,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 303.53 226.822 90)
+			(at 303.53 249.682 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12763,7 +13031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 228.6 0)
+			(at 303.53 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12774,7 +13042,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 303.53 228.6 0)
+			(at 303.53 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14054,6 +14322,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 287.02 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63725ba3-411e-47e7-9829-32ec72c74936")
+		(property "Reference" "TP8"
+			(at 289.56 183.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 289.56 185.9279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 292.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 287.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b84817c-320d-4b1c-b114-42e768194cea")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 191.77 90)
 		(unit 1)
@@ -15125,6 +15472,85 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 186.69 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "783f3a58-7687-4879-874a-cef1795d0be0")
+		(property "Reference" "TP10"
+			(at 189.23 215.1379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 189.23 217.6779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 191.77 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 186.69 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54e1ef02-c5d8-4d6b-8a58-66c9ab376b6d")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -16309,7 +16735,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 213.36 0)
+		(at 242.57 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16320,7 +16746,7 @@
 		(fields_autoplaced yes)
 		(uuid "93b9e4a6-3f40-4159-9bbf-1e10847028d7")
 		(property "Reference" "#PWR046"
-			(at 264.16 219.71 0)
+			(at 242.57 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16331,7 +16757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 218.44 0)
+			(at 242.57 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16341,7 +16767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 213.36 0)
+			(at 242.57 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16352,7 +16778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 213.36 0)
+			(at 242.57 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16363,7 +16789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 213.36 0)
+			(at 242.57 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16696,7 +17122,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 303.53 233.68 90)
+		(at 303.53 256.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16706,7 +17132,7 @@
 		(dnp no)
 		(uuid "95d63d87-1a17-4a75-b4a6-f392c9dd6c7e")
 		(property "Reference" "DNP_R2"
-			(at 303.53 236.982 90)
+			(at 303.53 259.842 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16716,7 +17142,7 @@
 			)
 		)
 		(property "Value" "4,7k"
-			(at 303.53 239.522 90)
+			(at 303.53 262.382 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16726,7 +17152,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 303.53 235.458 90)
+			(at 303.53 258.318 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16737,7 +17163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 233.68 0)
+			(at 303.53 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16748,7 +17174,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 303.53 233.68 0)
+			(at 303.53 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17242,6 +17668,85 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff0e5a7-47f2-4e70-ac66-d352b8711f87")
+		(property "Reference" "TP7"
+			(at 274.32 183.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 274.32 185.9279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 276.86 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90d57ba5-7253-4c7f-b853-9ac666bbbe91")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -18052,7 +18557,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 264.16 207.01 0)
+		(at 242.57 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18063,7 +18568,7 @@
 		(fields_autoplaced yes)
 		(uuid "b68fdd90-55a8-499b-826d-c5aa34532090")
 		(property "Reference" "TP5"
-			(at 266.7 202.4379 0)
+			(at 245.11 183.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18074,7 +18579,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 266.7 204.9779 0)
+			(at 245.11 185.9279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18085,7 +18590,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 269.24 207.01 0)
+			(at 247.65 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18096,7 +18601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 207.01 0)
+			(at 247.65 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18107,7 +18612,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 264.16 207.01 0)
+			(at 242.57 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18289,7 +18794,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 236.22 207.01 0)
+		(at 214.63 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18300,7 +18805,7 @@
 		(fields_autoplaced yes)
 		(uuid "be331bdc-e601-41fd-a9e8-01de47730ac4")
 		(property "Reference" "TP3"
-			(at 238.76 202.4379 0)
+			(at 217.17 183.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18311,7 +18816,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 238.76 204.9779 0)
+			(at 217.17 185.9279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18322,7 +18827,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 241.3 207.01 0)
+			(at 219.71 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18333,7 +18838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 207.01 0)
+			(at 219.71 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18344,7 +18849,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 236.22 207.01 0)
+			(at 214.63 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18439,6 +18944,163 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c02e54cc-c9ad-49f5-b90b-74a1d813d192")
+		(property "Reference" "#PWR049"
+			(at 257.81 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d6d822c-5812-409b-bb83-d8cfc87ea4ca")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 201.93 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0d2e2bd-1b7d-4e46-816d-e47448d0008e")
+		(property "Reference" "TP11"
+			(at 204.47 215.1379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 204.47 217.6779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 207.01 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 201.93 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e654ed3-c03a-4148-a105-3478bdfaa525")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -20665,7 +21327,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 205.74 207.01 0)
+		(at 184.15 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20676,7 +21338,7 @@
 		(fields_autoplaced yes)
 		(uuid "f090082f-8217-4333-bed4-213868757737")
 		(property "Reference" "TP1"
-			(at 208.28 202.4379 0)
+			(at 186.69 183.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20687,7 +21349,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 208.28 204.9779 0)
+			(at 186.69 185.9279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20698,7 +21360,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 210.82 207.01 0)
+			(at 189.23 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20709,7 +21371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 207.01 0)
+			(at 189.23 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20720,7 +21382,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 205.74 207.01 0)
+			(at 184.15 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
