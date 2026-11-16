@@ -434,269 +434,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -3351,6 +3088,530 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Frequency_Meter:KP-2012MGC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "KP-2012MGC"
+				(at 12.7 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X110N"
+				(at 12.7 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 12.7 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "Green 0805 clear chip-LED KP-2012MGC Kingbright KP-2012MGC Green LED, 570 nm, 2012 (0805), Rectangle Lens SMD Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 12.7 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 12.7 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 12.7 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Name" "Kingbright"
+				(at 12.7 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KP-2012MGC"
+				(at 12.7 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "KP-2012MGC_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Frequency_Meter:KP-2012SYC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "KP-2012SYC"
+				(at 12.7 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X110N"
+				(at 12.7 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/KP-2012SYC.pdf"
+				(at 12.7 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "Yellow 0805 clear chip-LED KP-2012SYC Kingbright KP-2012SYC Yellow LED, 588 nm, 2012 (0805), Rectangle Lens SMD Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 12.7 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 12.7 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 12.7 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Name" "Kingbright"
+				(at 12.7 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KP-2012SYC"
+				(at 12.7 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "KP-2012SYC_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Frequency_Meter:LMH6629MF_NOPB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4977,105 +5238,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -6419,16 +6581,6 @@
 		)
 		(uuid "72164f37-2018-49e5-b316-8dd20145d3da")
 	)
-	(text "Mounting holes for the display"
-		(exclude_from_sim no)
-		(at 224.282 279.654 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "7371903c-64b1-48a8-a639-69b0f7d9616b")
-	)
 	(text "Comparator and Frequency Divider"
 		(exclude_from_sim no)
 		(at 261.874 146.812 0)
@@ -6871,10 +7023,6 @@
 		(uuid "bc1a1c6a-130d-4d30-835a-38bc9d977814")
 	)
 	(no_connect
-		(at 416.56 77.47)
-		(uuid "bd72624f-a679-4609-889a-775737c26275")
-	)
-	(no_connect
 		(at 401.32 102.87)
 		(uuid "c513f116-8ca5-4f6e-89aa-4189c73ab252")
 	)
@@ -6948,7 +7096,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 257.81) (xy 218.44 257.81)
+			(xy 208.28 276.86) (xy 201.93 276.86)
 		)
 		(stroke
 			(width 0)
@@ -6985,6 +7133,16 @@
 			(type default)
 		)
 		(uuid "0ce3cd3c-a4fe-4a73-9395-252cac1ffd3d")
+	)
+	(wire
+		(pts
+			(xy 416.56 77.47) (xy 424.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1043f934-3864-42cf-91ef-18c797c4f46e")
 	)
 	(wire
 		(pts
@@ -7095,16 +7253,6 @@
 			(type default)
 		)
 		(uuid "19fbf344-34f0-4b60-8d0f-b6b4474aa49f")
-	)
-	(wire
-		(pts
-			(xy 214.63 187.96) (xy 214.63 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a95c232-b013-4e68-8fe0-f58c2e108cbf")
 	)
 	(wire
 		(pts
@@ -7608,6 +7756,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 135.89) (xy 462.28 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490f355a-6b86-443d-a093-59e2a74e4f68")
+	)
+	(wire
+		(pts
 			(xy 472.44 278.13) (xy 477.52 278.13)
 		)
 		(stroke
@@ -7728,7 +7886,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 250.19) (xy 218.44 250.19)
+			(xy 238.76 281.94) (xy 245.11 281.94)
 		)
 		(stroke
 			(width 0)
@@ -7808,7 +7966,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 219.71) (xy 186.69 226.06)
+			(xy 288.29 203.2) (xy 288.29 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8138,7 +8296,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 255.27) (xy 218.44 255.27)
+			(xy 208.28 274.32) (xy 201.93 274.32)
 		)
 		(stroke
 			(width 0)
@@ -8238,7 +8396,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 187.96) (xy 257.81 194.31)
+			(xy 224.79 203.2) (xy 224.79 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8248,7 +8406,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 219.71) (xy 201.93 226.06)
+			(xy 303.53 203.2) (xy 303.53 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8328,6 +8486,16 @@
 	)
 	(wire
 		(pts
+			(xy 397.51 316.23) (xy 402.59 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918f18b5-13ee-479f-8c9d-05c539ae0ff0")
+	)
+	(wire
+		(pts
 			(xy 38.1 219.71) (xy 41.91 219.71)
 		)
 		(stroke
@@ -8358,7 +8526,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 187.96) (xy 242.57 194.31)
+			(xy 209.55 203.2) (xy 209.55 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8398,7 +8566,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 187.96) (xy 271.78 194.31)
+			(xy 238.76 203.2) (xy 238.76 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8518,7 +8686,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 187.96) (xy 228.6 194.31)
+			(xy 195.58 203.2) (xy 195.58 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8728,16 +8896,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 187.96) (xy 200.66 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d62348-1c0f-4a93-8c7e-e59a13880421")
-	)
-	(wire
-		(pts
 			(xy 424.18 67.31) (xy 416.56 67.31)
 		)
 		(stroke
@@ -8758,13 +8916,23 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 187.96) (xy 287.02 194.31)
+			(xy 254 203.2) (xy 254 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ca781d14-df8e-401b-8ef3-e014a01fbe10")
+	)
+	(wire
+		(pts
+			(xy 427.99 135.89) (xy 431.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccef959d-8691-4ff4-b075-c6e35911957c")
 	)
 	(wire
 		(pts
@@ -8888,6 +9056,16 @@
 	)
 	(wire
 		(pts
+			(xy 414.02 316.23) (xy 410.21 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c6e388-8f73-42e6-8591-48c14f90a12e")
+	)
+	(wire
+		(pts
 			(xy 448.31 41.91) (xy 454.66 41.91)
 		)
 		(stroke
@@ -8988,6 +9166,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 316.23) (xy 429.26 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd612b29-75dc-4098-a489-74c52fe54de1")
+	)
+	(wire
+		(pts
 			(xy 384.81 205.74) (xy 384.81 204.47)
 		)
 		(stroke
@@ -9068,7 +9256,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 252.73) (xy 228.6 252.73)
+			(xy 238.76 269.24) (xy 255.27 269.24)
 		)
 		(stroke
 			(width 0)
@@ -9095,6 +9283,16 @@
 			(type default)
 		)
 		(uuid "ea91c8dc-4602-491b-962f-b927546f153c")
+	)
+	(wire
+		(pts
+			(xy 439.42 135.89) (xy 443.23 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac2f89a-1e08-44e7-8dd4-0d2ebd9355f2")
 	)
 	(wire
 		(pts
@@ -9168,16 +9366,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 187.96) (xy 184.15 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa8f6df4-b522-4491-a189-30ca05492504")
-	)
-	(wire
-		(pts
 			(xy 490.22 30.48) (xy 490.22 31.75)
 		)
 		(stroke
@@ -9198,7 +9386,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 187.96) (xy 302.26 194.31)
+			(xy 269.24 203.2) (xy 269.24 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9267,12 +9455,12 @@
 		(uuid "0fda63a0-5327-4f68-b554-e7a11a935e09")
 	)
 	(label "PA8_SDA"
-		(at 218.44 257.81 0)
+		(at 201.93 276.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "10ecadea-8643-4402-b9c5-237b97d9bd39")
 	)
@@ -9287,7 +9475,7 @@
 		(uuid "1547381d-fafb-474f-91db-7536f5f5e0ac")
 	)
 	(label "POWER_3V3"
-		(at 228.6 194.31 270)
+		(at 195.58 209.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9327,7 +9515,7 @@
 		(uuid "2f0107b6-bb05-4b3f-91b9-8511c19717e9")
 	)
 	(label "POWER_3V3"
-		(at 218.44 250.19 0)
+		(at 245.11 281.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9447,7 +9635,7 @@
 		(uuid "4ed92334-f9b9-4982-a5aa-e64dccc29874")
 	)
 	(label "POWER_5V"
-		(at 271.78 194.31 270)
+		(at 238.76 209.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9476,6 +9664,16 @@
 		)
 		(uuid "58e13572-cdf4-4a04-92e3-f2e9e35f6f4b")
 	)
+	(label "POWER_3V3"
+		(at 397.51 316.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cbfb8e5-2f0a-4b4b-8f64-ea074bcbeedd")
+	)
 	(label "VDDA"
 		(at 403.86 102.87 270)
 		(effects
@@ -9487,7 +9685,7 @@
 		(uuid "5e89f284-4245-48ba-b649-3e2a263a6e98")
 	)
 	(label "CLK_DIV2"
-		(at 201.93 226.06 270)
+		(at 303.53 209.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9495,16 +9693,6 @@
 			(justify right bottom)
 		)
 		(uuid "5ea7c4ee-ee15-4061-a8c3-e50e388ed367")
-	)
-	(label "PA13"
-		(at 184.15 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65833f2c-85c2-4829-848e-d0d8d8caea07")
 	)
 	(label "AMP_-IN"
 		(at 92.71 189.23 0)
@@ -9595,16 +9783,6 @@
 			(justify left bottom)
 		)
 		(uuid "80b63449-ed80-46b5-93e8-5da49594bdbf")
-	)
-	(label "PA14"
-		(at 200.66 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86bdf066-f9a3-427e-a37e-7b5ff3b87df2")
 	)
 	(label "USB_P"
 		(at 389.89 210.82 0)
@@ -9707,7 +9885,7 @@
 		(uuid "a192d0fa-32fc-4a95-a6da-796fffdead2d")
 	)
 	(label "VREF_1V6"
-		(at 302.26 194.31 270)
+		(at 269.24 209.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9717,7 +9895,7 @@
 		(uuid "a40e422d-5d27-4b94-8a02-5e8b51dc4ba4")
 	)
 	(label "RF_3V3"
-		(at 287.02 194.31 270)
+		(at 254 209.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9836,16 +10014,6 @@
 		)
 		(uuid "c0cb52b5-f1b5-43d1-a4d7-7c018765e507")
 	)
-	(label "PG10-NRST"
-		(at 214.63 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3d3085a-b671-496f-8f81-805aeea43e55")
-	)
 	(label "AMP_OUT"
 		(at 58.42 201.93 180)
 		(effects
@@ -9865,6 +10033,16 @@
 			(justify right bottom)
 		)
 		(uuid "c5b447f1-6bff-4902-8b71-039d3a16a41e")
+	)
+	(label "LED_STATUS"
+		(at 424.18 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8679d28-3c5e-4e4f-8311-ab4b8030a90d")
 	)
 	(label "VDDA"
 		(at 393.7 134.62 180)
@@ -9925,6 +10103,16 @@
 			(justify right bottom)
 		)
 		(uuid "d42e3f48-ffe2-4a7c-bad2-d264d8239cee")
+	)
+	(label "LED_STATUS"
+		(at 427.99 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d59e42ca-d868-443b-87c3-ec0bb771f703")
 	)
 	(label "USB_VBUS"
 		(at 382.27 257.81 0)
@@ -9997,12 +10185,12 @@
 		(uuid "f21efda2-c3fa-4869-8123-dc0012ba3652")
 	)
 	(label "PA9_SCL"
-		(at 218.44 255.27 0)
+		(at 201.93 274.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f4c3795e-f832-4cf6-9f65-075c75b4133c")
 	)
@@ -10037,7 +10225,7 @@
 		(uuid "fb230188-d8e8-4c62-aa3c-398fb0e6b276")
 	)
 	(label "CLK_100M"
-		(at 186.69 226.06 270)
+		(at 288.29 209.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10176,7 +10364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 95.25 243.078 90)
 			(hide yes)
 			(show_name no)
@@ -10219,6 +10407,148 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Frequency_Meter:KP-2012SYC")
+		(at 458.47 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03811195-3bce-4e21-a230-07cdd07ebe37")
+		(property "Reference" "LED2"
+			(at 450.85 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP-2012SYC"
+			(at 450.85 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FreqMeter:LEDC2012X110N"
+			(at 445.77 42.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/KP-2012SYC.pdf"
+			(at 445.77 -57.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Yellow 0805 clear chip-LED KP-2012SYC Kingbright KP-2012SYC Yellow LED, 588 nm, 2012 (0805), Rectangle Lens SMD Package"
+			(at 458.47 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 445.77 -257.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 445.77 -357.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 445.77 -457.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at 445.77 -557.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KP-2012SYC"
+			(at 445.77 -657.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "83f05fea-5dc2-4571-8b8f-ed1b1d87c4b5")
+		)
+		(pin "2"
+			(uuid "9c322196-c303-4030-bd0f-8bc7a21e72d3")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -10412,7 +10742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.5852 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -10612,6 +10942,148 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Frequency_Meter:KP-2012MGC")
+		(at 429.26 316.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0efa7674-9048-4f09-b832-27aeae3279ef")
+		(property "Reference" "LED1"
+			(at 421.64 308.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP-2012MGC"
+			(at 421.64 311.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FreqMeter:LEDC2012X110N"
+			(at 416.56 222.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 416.56 122.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Green 0805 clear chip-LED KP-2012MGC Kingbright KP-2012MGC Green LED, 570 nm, 2012 (0805), Rectangle Lens SMD Package"
+			(at 429.26 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 416.56 -77.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 416.56 -177.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 416.56 -277.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at 416.56 -377.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KP-2012MGC"
+			(at 416.56 -477.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3e5af512-2984-462b-9495-3761bf42dfe7")
+		)
+		(pin "2"
+			(uuid "f0f814f7-c941-4b46-b835-ee19025508a4")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -10885,7 +11357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 78.74 68.8848 0)
 			(hide yes)
 			(show_name no)
@@ -11056,7 +11528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 420.0652 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11135,7 +11607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 82.55 187.452 90)
 			(hide yes)
 			(show_name no)
@@ -11215,7 +11687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 68.8848 0)
 			(hide yes)
 			(show_name no)
@@ -11265,7 +11737,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 228.6 187.96 0)
+		(at 195.58 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11275,8 +11747,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fae9f5f-10a1-46e5-819f-aee3d92e6f67")
-		(property "Reference" "TP4"
-			(at 231.14 183.3879 0)
+		(property "Reference" "TP1"
+			(at 198.12 198.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11287,7 +11759,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 231.14 185.9279 0)
+			(at 198.12 201.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11298,7 +11770,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 233.68 187.96 0)
+			(at 200.66 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11309,7 +11781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 187.96 0)
+			(at 200.66 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11320,7 +11792,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 228.6 187.96 0)
+			(at 195.58 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11336,7 +11808,7 @@
 		(instances
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11374,7 +11846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 523.24 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -11495,85 +11967,6 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 200.66 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2598ad11-f952-435c-8170-218078ac5c37")
-		(property "Reference" "TP2"
-			(at 203.2 183.3879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 203.2 185.9279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 205.74 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 200.66 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f961e20d-22ee-4304-b001-c45dfbfd7c88")
-		)
-		(instances
-			(project "Frequency_Meter"
-				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -12275,7 +12668,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 302.26 187.96 0)
+		(at 269.24 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12285,8 +12678,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30c0eb80-f80f-4eb6-8179-df70ed2a2470")
-		(property "Reference" "TP9"
-			(at 304.8 183.3879 0)
+		(property "Reference" "TP6"
+			(at 271.78 198.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12297,7 +12690,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 304.8 185.9279 0)
+			(at 271.78 201.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12308,7 +12701,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 307.34 187.96 0)
+			(at 274.32 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12319,7 +12712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 187.96 0)
+			(at 274.32 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12330,7 +12723,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 302.26 187.96 0)
+			(at 269.24 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12346,7 +12739,7 @@
 		(instances
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP9")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -12384,7 +12777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 278.13 72.898 90)
 			(hide yes)
 			(show_name no)
@@ -12434,7 +12827,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 257.81 187.96 0)
+		(at 224.79 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12444,8 +12837,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "345c0859-a8d0-472e-9c8a-61c1626a5d92")
-		(property "Reference" "TP6"
-			(at 260.35 183.3879 0)
+		(property "Reference" "TP3"
+			(at 227.33 198.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12456,7 +12849,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 260.35 185.9279 0)
+			(at 227.33 201.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12467,7 +12860,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 262.89 187.96 0)
+			(at 229.87 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12478,7 +12871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 187.96 0)
+			(at 229.87 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12489,7 +12882,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 257.81 187.96 0)
+			(at 224.79 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12505,7 +12898,7 @@
 		(instances
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP6")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12939,7 +13332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 511.302 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -13019,7 +13412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 303.53 249.682 90)
 			(hide yes)
 			(show_name no)
@@ -13101,7 +13494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 118.4148 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13183,7 +13576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.162 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -13263,7 +13656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 412.75 224.282 90)
 			(hide yes)
 			(show_name no)
@@ -13812,7 +14205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 232.918 90)
 			(hide yes)
 			(show_name no)
@@ -13894,7 +14287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 300.6852 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14052,7 +14445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 115.57 168.58 0)
 			(hide yes)
 			(show_name no)
@@ -14323,7 +14716,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 287.02 187.96 0)
+		(at 254 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14333,8 +14726,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63725ba3-411e-47e7-9829-32ec72c74936")
-		(property "Reference" "TP8"
-			(at 289.56 183.3879 0)
+		(property "Reference" "TP5"
+			(at 256.54 198.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14345,7 +14738,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 289.56 185.9279 0)
+			(at 256.54 201.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14356,7 +14749,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 292.1 187.96 0)
+			(at 259.08 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14367,7 +14760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 187.96 0)
+			(at 259.08 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14378,7 +14771,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 287.02 187.96 0)
+			(at 254 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14394,7 +14787,7 @@
 		(instances
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP8")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -14513,7 +14906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 107.6452 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14556,82 +14949,6 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 265.43 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67d4b32d-da8c-40b2-a78e-d0e69a14416e")
-		(property "Reference" "H4"
-			(at 267.97 269.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 267.97 271.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 265.43 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 265.43 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Frequency_Meter"
-				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14746,7 +15063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 257.302 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -14873,214 +15190,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Screens:OLED_128X64_1.3_I2C")
-		(at 309.88 284.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cc0f8e9-2e4a-4749-851c-3848aab9ddd4")
-		(property "Reference" "DS1"
-			(at 309.88 269.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OLED_128X64_1.3_I2C"
-			(at 309.88 271.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Screens:LCD_OLED_128X64_1.3_I2C"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Non-Touch Graphic LCD Display Module Transmissive White OLED, Monochrome I2C 1.3 (33.02mm) 128 x 64"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "UNIVERSAL-SOLDER Electronics Ltd"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/OLED%20128x64%201.3%22%20I2C/UNIVERSAL-SOLDER+Electronics+Ltd/view-part/?ref=eda"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OLED%20128x64%201.3%22%20I2C/UNIVERSAL-SOLDER+Electronics+Ltd/view-part/?ref=snap"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "OLED 128x64 1.3&quot; I2C"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "UNIVERSAL-SOLDER Electronics Ltd"
-			(at 309.88 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "4"
-			(uuid "9a9cde28-ec1e-44ed-838d-9590faa3d0b8")
-		)
-		(pin "2"
-			(uuid "1945229a-0d09-4eae-80a3-233d0b3d92a0")
-		)
-		(pin "3"
-			(uuid "09f638da-f4fc-43fa-8fe9-0717e96bf8e2")
-		)
-		(pin "1"
-			(uuid "0c1f6f47-e68d-44c3-8764-e85dcad9b474")
-		)
-		(instances
-			(project "Frequency_Meter"
-				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "DS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 419.1 97.79 0)
 		(unit 1)
@@ -15192,7 +15301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 178.74 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15381,6 +15490,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 433.07 316.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75fbaef6-c0f6-4454-b7ce-386b42404685")
+		(property "Reference" "#PWR051"
+			(at 439.42 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 436.88 316.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 433.07 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.07 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 433.07 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1783cd43-7402-4ef3-b5e6-74d8b5f7c04c")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 382.27 271.78 0)
 		(unit 1)
@@ -15479,7 +15667,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 186.69 219.71 0)
+		(at 288.29 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15489,8 +15677,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783f3a58-7687-4879-874a-cef1795d0be0")
-		(property "Reference" "TP10"
-			(at 189.23 215.1379 0)
+		(property "Reference" "TP7"
+			(at 290.83 198.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15501,7 +15689,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 189.23 217.6779 0)
+			(at 290.83 201.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15512,7 +15700,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 191.77 219.71 0)
+			(at 293.37 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15523,7 +15711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 219.71 0)
+			(at 293.37 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15534,7 +15722,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 186.69 219.71 0)
+			(at 288.29 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15550,7 +15738,7 @@
 		(instances
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP10")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -15709,6 +15897,86 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 435.61 135.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ea5ad36-bc28-4d0e-aad1-bd98b04d0573")
+		(property "Reference" "R3"
+			(at 435.61 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2,2k"
+			(at 435.61 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 435.61 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 435.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb96e5f3-7f3f-4905-93b0-c2b73447b175")
+		)
+		(pin "2"
+			(uuid "b17208f0-ec2d-407b-ba64-a2908b1272f4")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15899,7 +16167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 530.86 222.758 90)
 			(hide yes)
 			(show_name no)
@@ -16060,7 +16328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 511.048 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -16607,7 +16875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.6048 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16735,7 +17003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 194.31 0)
+		(at 209.55 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16746,7 +17014,7 @@
 		(fields_autoplaced yes)
 		(uuid "93b9e4a6-3f40-4159-9bbf-1e10847028d7")
 		(property "Reference" "#PWR046"
-			(at 242.57 200.66 0)
+			(at 209.55 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16757,7 +17025,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 199.39 0)
+			(at 209.55 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16767,7 +17035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 194.31 0)
+			(at 209.55 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16778,7 +17046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 194.31 0)
+			(at 209.55 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16789,7 +17057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 194.31 0)
+			(at 209.55 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17151,7 +17419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 303.53 258.318 90)
 			(hide yes)
 			(show_name no)
@@ -17588,94 +17856,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 207.01 252.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ef0782d-6df2-4e9d-99cb-87eb5b65105c")
-		(property "Reference" "J3"
-			(at 207.645 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 207.645 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 207.01 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 207.01 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06ddc737-de0a-4556-9ccd-0fe93f63e4bf")
-		)
-		(pin "3"
-			(uuid "ca8ce869-c5c8-4ec6-8fb7-21b69b7ab05c")
-		)
-		(pin "2"
-			(uuid "fa174acd-e4b1-4d5f-98df-aa002fd9a19b")
-		)
-		(pin "4"
-			(uuid "5d380c93-c187-4de6-a4c6-9559828aca78")
-		)
-		(instances
-			(project "Frequency_Meter"
-				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 271.78 187.96 0)
+		(at 238.76 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17685,8 +17867,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ff0e5a7-47f2-4e70-ac66-d352b8711f87")
-		(property "Reference" "TP7"
-			(at 274.32 183.3879 0)
+		(property "Reference" "TP4"
+			(at 241.3 198.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17697,7 +17879,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 274.32 185.9279 0)
+			(at 241.3 201.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17708,7 +17890,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 276.86 187.96 0)
+			(at 243.84 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17719,7 +17901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 187.96 0)
+			(at 243.84 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17730,7 +17912,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 271.78 187.96 0)
+			(at 238.76 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17746,7 +17928,7 @@
 		(instances
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP7")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -17786,7 +17968,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 225.298 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -17866,7 +18048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 59.69 265.7348 0)
 			(hide yes)
 			(show_name no)
@@ -18027,7 +18209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.3348 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18109,7 +18291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 453.0852 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -18159,7 +18341,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 252.73 90)
+		(at 255.27 269.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18170,7 +18352,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad8370eb-01d4-4dab-912f-623e34c86923")
 		(property "Reference" "#PWR048"
-			(at 234.95 252.73 0)
+			(at 261.62 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18181,7 +18363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 252.7299 90)
+			(at 259.08 269.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18192,7 +18374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 252.73 0)
+			(at 255.27 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18203,7 +18385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 252.73 0)
+			(at 255.27 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18214,7 +18396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 252.73 0)
+			(at 255.27 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18347,7 +18529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.89 193.548 90)
 			(hide yes)
 			(show_name no)
@@ -18557,7 +18739,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 242.57 187.96 0)
+		(at 209.55 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18567,8 +18749,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68fdd90-55a8-499b-826d-c5aa34532090")
-		(property "Reference" "TP5"
-			(at 245.11 183.3879 0)
+		(property "Reference" "TP2"
+			(at 212.09 198.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18579,7 +18761,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 245.11 185.9279 0)
+			(at 212.09 201.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18590,7 +18772,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 247.65 187.96 0)
+			(at 214.63 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18601,7 +18783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 187.96 0)
+			(at 214.63 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18612,7 +18794,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 242.57 187.96 0)
+			(at 209.55 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18628,7 +18810,7 @@
 		(instances
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -18793,85 +18975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 214.63 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be331bdc-e601-41fd-a9e8-01de47730ac4")
-		(property "Reference" "TP3"
-			(at 217.17 183.3879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 217.17 185.9279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 219.71 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 214.63 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2318186e-b2eb-4f0f-9f99-7e972d9dcee3")
-		)
-		(instances
-			(project "Frequency_Meter"
-				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 539.75 234.95 0)
 		(unit 1)
@@ -18951,7 +19054,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 194.31 0)
+		(at 224.79 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18962,7 +19065,7 @@
 		(fields_autoplaced yes)
 		(uuid "c02e54cc-c9ad-49f5-b90b-74a1d813d192")
 		(property "Reference" "#PWR049"
-			(at 257.81 200.66 0)
+			(at 224.79 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18973,7 +19076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 199.39 0)
+			(at 224.79 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18983,7 +19086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 194.31 0)
+			(at 224.79 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18994,7 +19097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 194.31 0)
+			(at 224.79 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19005,7 +19108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 194.31 0)
+			(at 224.79 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19029,7 +19132,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 201.93 219.71 0)
+		(at 303.53 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19039,8 +19142,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0d2e2bd-1b7d-4e46-816d-e47448d0008e")
-		(property "Reference" "TP11"
-			(at 204.47 215.1379 0)
+		(property "Reference" "TP8"
+			(at 306.07 198.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19051,7 +19154,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 204.47 217.6779 0)
+			(at 306.07 201.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19062,7 +19165,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 207.01 219.71 0)
+			(at 308.61 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19073,7 +19176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 219.71 0)
+			(at 308.61 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19084,7 +19187,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 201.93 219.71 0)
+			(at 303.53 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19100,7 +19203,7 @@
 		(instances
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP11")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -19216,7 +19319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 379.73 263.1948 0)
 			(hide yes)
 			(show_name no)
@@ -19296,7 +19399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 77.1652 0)
 			(hide yes)
 			(show_name no)
@@ -19735,82 +19838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 207.01 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0beb173-13a4-4ff2-9933-99d34de90a0b")
-		(property "Reference" "H1"
-			(at 209.55 269.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 209.55 271.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 207.01 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 207.01 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Frequency_Meter"
-				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 99.06 279.4 270)
 		(unit 1)
@@ -19884,158 +19911,6 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 227.33 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d93a4b55-ec6b-46b0-9d98-63f343b88333")
-		(property "Reference" "H2"
-			(at 229.87 269.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 229.87 271.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 227.33 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 227.33 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Frequency_Meter"
-				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 246.38 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daccfd79-9291-4d2a-9ca1-86ae677f251d")
-		(property "Reference" "H3"
-			(at 248.92 269.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 248.92 271.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 246.38 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 246.38 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Frequency_Meter"
-				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -20152,7 +20027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 78.74 77.1652 0)
 			(hide yes)
 			(show_name no)
@@ -20306,7 +20181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 412.75 232.918 90)
 			(hide yes)
 			(show_name no)
@@ -20511,7 +20386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 62.23 168.58 0)
 			(hide yes)
 			(show_name no)
@@ -20653,7 +20528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 104.14 242.2652 0)
 			(hide yes)
 			(show_name no)
@@ -21195,7 +21070,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 129.8448 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -21277,7 +21152,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 228.2952 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -21326,8 +21201,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 184.15 187.96 0)
+		(lib_id "Screens:OLED_128X64_1.3_I2C")
+		(at 223.52 276.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21336,31 +21211,237 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f090082f-8217-4333-bed4-213868757737")
-		(property "Reference" "TP1"
-			(at 186.69 183.3879 0)
+		(uuid "eeb7717e-9b8c-4015-b1d4-f46bd5d45a2e")
+		(property "Reference" "DS1"
+			(at 223.52 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 186.69 185.9279 0)
+		(property "Value" "OLED_128X64_1.3_I2C"
+			(at 223.52 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 189.23 187.96 0)
+		(property "Footprint" "Screens:LCD_OLED_128X64_1.3_I2C"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Non-Touch Graphic LCD Display Module Transmissive White OLED, Monochrome I2C 1.3 (33.02mm) 128 x 64"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "UNIVERSAL-SOLDER Electronics Ltd"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/OLED%20128x64%201.3%22%20I2C/UNIVERSAL-SOLDER+Electronics+Ltd/view-part/?ref=eda"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OLED%20128x64%201.3%22%20I2C/UNIVERSAL-SOLDER+Electronics+Ltd/view-part/?ref=snap"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "OLED 128x64 1.3&quot; I2C"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "UNIVERSAL-SOLDER Electronics Ltd"
+			(at 223.52 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "4c28d24c-4835-4035-b62a-cbc3a2bac0cc")
+		)
+		(pin "4"
+			(uuid "f2944d24-5dd8-41d9-a2b4-aca2e2b09ea8")
+		)
+		(pin "1"
+			(uuid "484c3eee-071c-4c46-9d8a-5a3ade7b802e")
+		)
+		(pin "2"
+			(uuid "f90128bc-7f83-4c64-a912-a298bb332fac")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "DS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 406.4 316.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef2029f0-87fa-4259-ab87-c4dee6df34ec")
+		(property "Reference" "R2"
+			(at 406.4 309.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2,2k"
+			(at 406.4 312.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 406.4 318.008 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21371,7 +21452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 187.96 0)
+			(at 406.4 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21381,8 +21462,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 184.15 187.96 0)
+		(property "Description" "Resistor"
+			(at 406.4 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21393,12 +21474,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "92ee9989-a4a1-4878-88dc-9c1c8b32c11c")
+			(uuid "4a4cbb04-237e-4c7a-b59a-de1a99f58155")
+		)
+		(pin "2"
+			(uuid "1cd7069f-8676-48f4-9ac0-65854b352c87")
 		)
 		(instances
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "TP1")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 462.28 135.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f04a3823-78e4-4f67-b107-f8ef3c11b94e")
+		(property "Reference" "#PWR056"
+			(at 468.63 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 466.09 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 462.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 462.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 462.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7755e36b-2438-4ef4-9fcb-27d4a2df5b7b")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -21673,7 +21836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 491.1852 39.37 0)
 			(hide yes)
 			(show_name no)
