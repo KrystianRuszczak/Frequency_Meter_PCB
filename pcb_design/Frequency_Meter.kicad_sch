@@ -5238,52 +5238,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:USBLC6-2SC6"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "Frequency_Meter:USBLC6-4SC6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0.635 5.715 0)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "USBLC6-2SC6"
-				(at 0.635 3.81 0)
+			(property "Value" "USBLC6-4SC6"
+				(at 24.13 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-				(at 1.27 -8.255 0)
+			(property "Footprint" "SOT95P280X145-6N"
+				(at 24.13 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5291,10 +5275,22 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-4.pdf"
+				(at 24.13 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "4 data-line protection  Protects VBUS  Very low capacitance: 3 pF typ.  Peak pulse power (8/20 s): 130 W typ.  SOT23-6L package  RoHS compliant"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5305,8 +5301,8 @@
 					)
 				)
 			)
-			(property "ki_keywords" "usb ethernet video"
-				(at 0 0 0)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5314,10 +5310,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
+			(property "TME Electronic Components Part Number" ""
+				(at 24.13 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5325,239 +5322,49 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "USBLC6-2SC6_0_0"
-				(circle
-					(center -1.524 0)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 24.13 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.508 2.032)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.508 -4.572)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.508 2.032)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.508 -4.572)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.524 -2.54)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
 				)
 			)
-			(symbol "USBLC6-2SC6_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 24.13 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -3.048) (xy -1.016 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -2.032 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
-						(xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -3.048) (xy 2.032 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
 				)
 			)
-			(symbol "USBLC6-2SC6_1_1"
+			(property "Manufacturer_Part_Number" "USBLC6-4SC6"
+				(at 24.13 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "USBLC6-4SC6_1_1"
 				(rectangle
-					(start -2.54 2.794)
-					(end 2.54 -5.334)
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5566,33 +5373,9 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
+					(at 0 0 0)
+					(length 5.08)
 					(name "I/O1"
 						(effects
 							(font
@@ -5609,8 +5392,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
+					(at 0 -2.54 0)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
@@ -5627,8 +5410,8 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
+					(at 0 -5.08 0)
+					(length 5.08)
 					(name "I/O2"
 						(effects
 							(font
@@ -5645,9 +5428,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "I/O2"
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "I/O3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5663,8 +5446,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
+					(at 27.94 -2.54 180)
+					(length 5.08)
 					(name "VBUS"
 						(effects
 							(font
@@ -5681,9 +5464,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "I/O1"
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "I/O4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6929,7 +6712,7 @@
 		(uuid "c6f2150a-ce1c-4695-b21b-705e9e5a3b5b")
 	)
 	(junction
-		(at 382.27 264.16)
+		(at 410.21 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca82c61b-804c-4217-a398-360bf42313a0")
@@ -7096,6 +6879,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 227.33) (xy 287.02 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a4323f-33ab-482e-81fa-54507f12df2b")
+	)
+	(wire
+		(pts
 			(xy 208.28 276.86) (xy 201.93 276.86)
 		)
 		(stroke
@@ -7176,7 +6969,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 271.78) (xy 391.16 271.78)
+			(xy 394.97 271.78) (xy 398.78 271.78)
 		)
 		(stroke
 			(width 0)
@@ -7203,6 +6996,16 @@
 			(type default)
 		)
 		(uuid "16236f5c-c441-4867-8c29-1684b731723c")
+	)
+	(wire
+		(pts
+			(xy 394.97 274.32) (xy 410.21 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1634b642-4b7d-41a0-bd3c-7679f1dcd1b9")
 	)
 	(wire
 		(pts
@@ -7326,7 +7129,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 264.16) (xy 382.27 266.7)
+			(xy 410.21 264.16) (xy 410.21 274.32)
 		)
 		(stroke
 			(width 0)
@@ -7516,7 +7319,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 280.67) (xy 382.27 279.4)
+			(xy 355.6 274.32) (xy 367.03 274.32)
 		)
 		(stroke
 			(width 0)
@@ -7656,7 +7459,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 274.32) (xy 377.19 274.32)
+			(xy 364.49 276.86) (xy 367.03 276.86)
 		)
 		(stroke
 			(width 0)
@@ -8156,7 +7959,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 264.16) (xy 382.27 264.16)
+			(xy 407.67 264.16) (xy 410.21 264.16)
 		)
 		(stroke
 			(width 0)
@@ -8206,7 +8009,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 264.16) (xy 372.11 264.16)
+			(xy 397.51 264.16) (xy 400.05 264.16)
 		)
 		(stroke
 			(width 0)
@@ -8263,6 +8066,16 @@
 			(type default)
 		)
 		(uuid "78530844-d0dc-43e8-a78b-0dc9291bf0bf")
+	)
+	(wire
+		(pts
+			(xy 303.53 227.33) (xy 303.53 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b28b933-ea31-4103-a2cb-8fc945da6681")
 	)
 	(wire
 		(pts
@@ -8556,7 +8369,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 257.81) (xy 382.27 264.16)
+			(xy 410.21 257.81) (xy 410.21 264.16)
 		)
 		(stroke
 			(width 0)
@@ -8616,7 +8429,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 271.78) (xy 377.19 271.78)
+			(xy 364.49 271.78) (xy 367.03 271.78)
 		)
 		(stroke
 			(width 0)
@@ -8886,7 +8699,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 274.32) (xy 391.16 274.32)
+			(xy 394.97 276.86) (xy 398.78 276.86)
 		)
 		(stroke
 			(width 0)
@@ -9625,7 +9438,7 @@
 		(uuid "4d38f87c-d95c-41f9-9ca4-15e835064f66")
 	)
 	(label "USB_N"
-		(at 374.65 271.78 180)
+		(at 364.49 271.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9705,7 +9518,7 @@
 		(uuid "663bdd16-3078-40a0-a5a6-a73b5791509a")
 	)
 	(label "USB_P"
-		(at 391.16 274.32 0)
+		(at 398.78 276.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9915,7 +9728,7 @@
 		(uuid "a6fd8f61-7337-4607-99ab-331f8331504d")
 	)
 	(label "USB_N"
-		(at 391.16 271.78 0)
+		(at 398.78 271.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10115,7 +9928,7 @@
 		(uuid "d59e42ca-d868-443b-87c3-ec0bb771f703")
 	)
 	(label "USB_VBUS"
-		(at 382.27 257.81 0)
+		(at 410.21 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10175,7 +9988,7 @@
 		(uuid "ed842174-c534-4d3f-a2f1-25772ae4a517")
 	)
 	(label "USB_P"
-		(at 374.65 274.32 180)
+		(at 364.49 276.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10792,7 +10605,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 382.27 280.67 0)
+		(at 355.6 274.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10800,10 +10613,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c760863-c823-4486-8d55-c742f6e5c48e")
 		(property "Reference" "#PWR035"
-			(at 382.27 287.02 0)
+			(at 349.25 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10814,7 +10626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 382.27 285.75 0)
+			(at 350.52 274.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10824,7 +10636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 280.67 0)
+			(at 355.6 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10835,7 +10647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 280.67 0)
+			(at 355.6 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10846,7 +10658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 280.67 0)
+			(at 355.6 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10863,6 +10675,84 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 287.02 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ce741f7-29db-4264-9191-e6898d942e7f")
+		(property "Reference" "#PWR057"
+			(at 287.02 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 287.02 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "601c8402-8db4-4cac-a73f-0abc57870b6b")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -12124,6 +12014,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 287.02 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "295a15fc-4ad6-4556-a6c9-2b2ca7fb3c66")
+		(property "Reference" "TP9"
+			(at 289.56 222.7579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 289.56 225.2979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 292.1 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 287.02 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "deaac382-8358-4316-8f14-234b0b28dcea")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 539.75 228.6 0)
 		(unit 1)
@@ -12590,6 +12559,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 303.53 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa2f304-5ec9-4ccc-a123-eeb221515d28")
+		(property "Reference" "#PWR058"
+			(at 303.53 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 303.53 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 303.53 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d089f380-815d-473f-87fd-7c7465ce7fce")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 472.44 262.89 180)
 		(unit 1)
 		(body_style 1)
@@ -12859,7 +12906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 229.87 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -15569,103 +15616,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 382.27 271.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7777a373-cc8f-4282-9047-ac0359455cab")
-		(property "Reference" "U1"
-			(at 383.9211 264.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USBLC6-2SC6"
-			(at 383.9211 266.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 383.54 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 383.54 280.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 382.27 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "283a7d3e-f7ed-43c2-bf97-45c1acd93c10")
-		)
-		(pin "2"
-			(uuid "ba8fdada-bf38-4cd7-8ade-0c01a89b6d15")
-		)
-		(pin "6"
-			(uuid "0676b1bf-7364-4db2-9869-f979e4a09b76")
-		)
-		(pin "4"
-			(uuid "89110a01-11e2-4a40-a2aa-e42142d29013")
-		)
-		(pin "1"
-			(uuid "d792969c-8cd9-4f9f-9dad-ba8622421e85")
-		)
-		(pin "3"
-			(uuid "d81071f4-c5ca-42b2-a2ea-4f19bb0bd3b6")
-		)
-		(instances
-			(project "Frequency_Meter"
-				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 288.29 203.2 0)
 		(unit 1)
@@ -15817,6 +15767,160 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Frequency_Meter:USBLC6-4SC6")
+		(at 367.03 271.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "790f3eb1-3569-4432-b9fe-45d0ab343194")
+		(property "Reference" "IC5"
+			(at 381 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USBLC6-4SC6"
+			(at 381 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FreqMeter:SOT95P280X145-6N"
+			(at 391.16 366.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-4.pdf"
+			(at 391.16 466.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "4 data-line protection  Protects VBUS  Very low capacitance: 3 pF typ.  Peak pulse power (8/20 s): 130 W typ.  SOT23-6L package  RoHS compliant"
+			(at 367.03 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 391.16 666.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 391.16 766.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 391.16 866.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 391.16 966.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USBLC6-4SC6"
+			(at 391.16 1066.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "6a05066a-508a-49b6-9d5f-212164e598a0")
+		)
+		(pin "1"
+			(uuid "0a607048-3c81-42e8-b61f-eafd33c6f542")
+		)
+		(pin "2"
+			(uuid "18ef2f58-a049-41b3-a9cb-72ea0c729ed9")
+		)
+		(pin "5"
+			(uuid "cd48970a-bfc2-4a53-942f-ae215c9282e4")
+		)
+		(pin "4"
+			(uuid "e7474eca-79d1-44a8-b373-2edc4e46da63")
+		)
+		(pin "6"
+			(uuid "cc36dd01-ff89-4ae9-9b88-3a7ea5b90529")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -18579,7 +18683,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 369.57 264.16 270)
+		(at 397.51 264.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18590,7 +18694,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1155a6c-a964-4ada-91c9-b259edae1341")
 		(property "Reference" "#PWR036"
-			(at 363.22 264.16 0)
+			(at 391.16 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18601,7 +18705,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 264.1599 90)
+			(at 393.7 264.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18612,7 +18716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 264.16 0)
+			(at 397.51 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18623,7 +18727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 264.16 0)
+			(at 397.51 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18634,7 +18738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 369.57 264.16 0)
+			(at 397.51 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18771,7 +18875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 214.63 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -18811,6 +18915,85 @@
 			(project "Frequency_Meter"
 				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 303.53 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8a192a5-af80-4749-bccb-6fe2c13b52db")
+		(property "Reference" "TP10"
+			(at 306.07 222.7579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 306.07 225.2979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 308.61 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 303.53 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a477ea1-fa77-48d5-aeca-3cdd4d2c8178")
+		)
+		(instances
+			(project "Frequency_Meter"
+				(path "/671a7fb9-45cc-4427-a04d-af06a4b40d7d"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -19289,7 +19472,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 375.92 264.16 90)
+		(at 403.86 264.16 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19300,7 +19483,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3b83e3a-b943-4e09-b00e-97b4f92e9732")
 		(property "Reference" "C18"
-			(at 375.92 256.54 90)
+			(at 403.86 256.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19310,7 +19493,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 375.92 259.08 90)
+			(at 403.86 259.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19320,7 +19503,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 379.73 263.1948 0)
+			(at 407.67 263.1948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19331,7 +19514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 264.16 0)
+			(at 403.86 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19342,7 +19525,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 375.92 264.16 0)
+			(at 403.86 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
